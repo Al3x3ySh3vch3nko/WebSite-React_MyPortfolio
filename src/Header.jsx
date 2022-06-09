@@ -8,7 +8,7 @@ return(
     <nav id="main-nav">
     <h1>
         <span className = "txt-big text-center">
-        <span className = "red"> > [ </span>
+        <span className = "red"> ▶ [ </span>
         Alexey Shevchenko
         <span className = "hidden">
         <span className = "red"> | </span> Portfolio

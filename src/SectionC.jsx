@@ -5,7 +5,7 @@ function SectionC ()
 return(
 <section id="about-c" className = "py-2 bg-light">
     <h2 className = "section-title py-2 bg-dark">
-        <span className = "red"> > [ </span>
+        <span className = "red"> ▶ [ </span>
         Completed Courses
         <span className = "red">]</span>
         <div className = "bottom-line"></div>

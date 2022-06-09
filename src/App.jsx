@@ -6,6 +6,7 @@ import SectionB  from './SectionB'
 import SectionC  from './SectionC'
 import SectionD  from './SectionD'
 import Footer    from './Footer'
+// import SkillLine from './SkillLine'
 
 function App()
 {
