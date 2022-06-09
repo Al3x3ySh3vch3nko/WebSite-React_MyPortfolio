@@ -7,7 +7,6 @@ import SectionC  from './SectionC'
 import SectionD  from './SectionD'
 import Footer    from './Footer'
 
-
 // Spinner Logic
 // const spinner     = document.querySelector('.preloader')
 // console.log('Spinner', spinner);

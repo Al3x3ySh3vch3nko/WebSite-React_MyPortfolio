@@ -8,7 +8,7 @@ return(
         <img 
         data-src={props.dataSrc}
         src={props.src}
-        className = "lazy-img"
+        // className = "lazy-img"
         alt=""
         />
     </div>

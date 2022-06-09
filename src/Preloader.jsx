@@ -1,4 +1,5 @@
-import React from 'react'
+
+// import React from 'react'
 
 // // Spinner Logic
 // const showLoader = () => loader.classList.remove('preloader--hide');
@@ -22,4 +23,4 @@ import React from 'react'
 //     )
 // }
 
-export default Preloader
+// export default Preloader
