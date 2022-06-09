@@ -1,7 +1,7 @@
 @font-face 
 {
   font-family: 'Rogan-Light';
-  src: url("/fonts/Rogan-Light.woff") format("woff"), url("/fonts/Rogan-Light.woff2") format("woff2");
+  src: url("../src/fonts/Rogan-Light.woff") format("woff"), url("../src/fonts/Rogan-Light.woff2") format("woff2");
   font-weight: light;
   font-style: normal; 
 }
