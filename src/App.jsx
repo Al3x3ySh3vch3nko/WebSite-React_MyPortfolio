@@ -7,6 +7,26 @@ import SectionC  from './SectionC'
 import SectionD  from './SectionD'
 import Footer    from './Footer'
 
+
+// Spinner Logic
+// const spinner     = document.querySelector('.preloader')
+// console.log('Spinner', spinner);
+
+// const spinnerNone = () => spinner.style.display = 'none'
+// const spinnerLoad = () => window.setTimeout(spinnerNone, 4000)
+// window.addEventListener('load', spinnerLoad)
+
+
+// Spinner Visual
+// function Preloader()
+// {
+// return(
+//     <div className= 'preloader'>
+//         <div className = 'preloader-img'></div>
+//     </div>
+//     )
+// }
+
 function App()
 {
     return(
