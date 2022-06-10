@@ -1,8 +1,8 @@
+/* eslint-disable import/no-anonymous-default-export */
 import React from 'react'
 
-function SectionC ()
-{
-return(
+export default () =>
+(
 <section id="about-c" className = "py-2 bg-light">
     <h2 className = "section-title py-2 bg-dark">
         <span className = "red"> ▶ [ </span>
@@ -37,6 +37,4 @@ return(
         </div>
         </div>
     </section>
-)}
-
-export default SectionC
+)

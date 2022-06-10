@@ -1,9 +1,10 @@
+/* eslint-disable import/no-anonymous-default-export */
 import React from 'react'
 import SkillLine from './SkillLine'
 
-function SectionB()
-{
-return(
+
+export default () =>
+(
 <section id="about-b" className = "py-1">
     <div className = "container frost">
     <h2 className = "section-title">
@@ -17,91 +18,91 @@ return(
         width = '90%'
     />        
     <SkillLine
-        name = 'Design'
+        name  = 'Design'
         width = '60%'
     />  
     <SkillLine
-        name = 'Typography'
+        name  = 'Typography'
         width = '70%'
     />  
     <SkillLine
-        name = 'Zepplin'
+        name  = 'Zepplin'
         width = '100%'
     />  
     <SkillLine
-        name = 'Adobe Photoshop'
+        name  = 'Adobe Photoshop'
         width = '50%'
     />  
     <SkillLine
-        name = 'Figma'
+        name  = 'Figma'
         width = '60%'
     />  
     <SkillLine
-        name = 'SASS'
+        name  = 'SASS'
         width = '60%'
     />  
     <SkillLine
-        name = 'Bootstrap'
+        name  = 'Bootstrap'
         width = '70%'
     />  
     <SkillLine
-        name = 'GIT, GITHUB'
+        name  = 'GIT, GITHUB'
         width = '70%'
     />  
     <SkillLine
-        name = 'Gulp'
+        name  = 'Gulp'
         width = '30%'
     />  
     <SkillLine
-        name = 'Java Script'
+        name  = 'Java Script'
         width = '60%'
     />  
     <SkillLine
-        name = 'React'
+        name  = 'React'
         width = '45%'
     />  
     <SkillLine
-        name = 'Node JS \ Express JS'
+        name  = 'Node JS \ Express JS'
         width = '30%'
     />  
     <SkillLine
-        name = 'API (REST)'
+        name  = 'API (REST)'
         width = '40%'
     />  
     <SkillLine
-        name = 'EJS'
+        name  = 'EJS'
         width = '60%'
     />  
     <SkillLine
-        name = 'SQL'
+        name  = 'SQL'
         width = '30%'
     />  
     <SkillLine
-        name = 'MongoDB \ Mongoose'
+        name  = 'MongoDB \ Mongoose'
         width = '30%'
     />  
     <SkillLine
-        name = 'Authentication & Security'
+        name  = 'Authentication & Security'
         width = '30%'
     />  
     <SkillLine
-        name = 'Wordpress'
+        name  = 'Wordpress'
         width = '30%'
     />  
     <SkillLine
-        name = 'JQuery'
+        name  = 'JQuery'
         width = '50%'
     />  
     <SkillLine
-        name = 'SVG'
+        name  = 'SVG'
         width = '70%'
     />  
     <SkillLine
-        name = 'PHP'
+        name  = 'PHP'
         width = '10%'
     />  
     <SkillLine
-        name = 'WEB 3 (Motoko, Decentrelized Apps (DApps), Internet Computer, Blockchain)'
+        name  = 'WEB 3 (Motoko, Decentrelized Apps (DApps), Internet Computer, Blockchain)'
         width = '10%'
     />  
     <h2 className = "section-title">
@@ -116,6 +117,4 @@ return(
     /> 
     </div>
 </section>
-)}
-
-export default SectionB
+)

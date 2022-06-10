@@ -1,9 +1,9 @@
+/* eslint-disable import/no-anonymous-default-export */
 
 import React from 'react'
 
-function SectionA()
-{
-return(
+export default () =>
+(
 <section id="about-a" className="py-3">
 <div className="container">
     <div className="about-info frost">
@@ -35,6 +35,4 @@ return(
     </div>
 </div>
 </section>
-)}
-
-export default SectionA
+)

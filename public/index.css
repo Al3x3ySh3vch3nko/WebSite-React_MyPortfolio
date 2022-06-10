@@ -8,11 +8,11 @@
 
 :root 
 {
-  --dark-color: rgb(48, 54, 42);
+  --dark-color: rgb(31, 63, 14);
   --light-color: #fff;
   --color-1: rgb(166, 191,162);
-  --color-2: rgb(48, 54, 42);
-  --color-3: rgb(48, 54, 42);
+  --color-2: rgb(31, 63, 14);
+  --color-3: rgb(31, 63, 14);
 }
 
 /* Scrollbar */
@@ -133,20 +133,31 @@ h2,
 h4 
 {
   text-transform: uppercase;
+  font-size: 1rem;
+}
+h4
+{
+  font-size: 0.7rem;
+  font-weight: normal;
+}
+
+#main-nav > h1 > span
+{
+  background: var(--color-2);
 }
 
 img {
   width: 100%; }
 
 .txt-big {
-  font-size: 2.3rem;
+  font-size: 1,5rem;
   color: var(--light-color);
   display: block; 
   padding: 10px;
 }
 
 .txt-medium {
-  font-size: 1.3rem;
+  font-size: 1rem;
   color: var(--light-color); }
 
 .red {

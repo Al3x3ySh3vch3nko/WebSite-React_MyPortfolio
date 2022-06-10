@@ -1,9 +1,8 @@
-
+/* eslint-disable import/no-anonymous-default-export */
 import React from 'react'
 
-function Header ()
-{
-return(
+export default () =>
+(
 <header id="header-inner">
     <nav id="main-nav">
     <h1>
@@ -17,7 +16,5 @@ return(
         </span>
     </h1>
     </nav>
-</header>
-)}
-
-export default Header
+</header> 
+)

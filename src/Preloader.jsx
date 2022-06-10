@@ -1,10 +1,10 @@
+/* eslint-disable import/no-anonymous-default-export */
 
-// import React from 'react'
+import React from 'react'
 
-// // Spinner Logic
+// Spinner Logic
 // const showLoader = () => loader.classList.remove('preloader--hide');
 // const hideLoader = () => loader.classList.add('preloader--hide');
-
 
 // const spinner     = document.querySelector('.preloader')
 // const spinnerNone = () => spinner.style.display = 'none'
@@ -13,14 +13,12 @@
 
 // console.log('Spinner', spinner);
 
-// // Spinner Visual
-// function Preloader()
-// {
-// return(
-//     <div className= 'preloader'>
-//         <div className = 'preloader-img'></div>
-//     </div>
-//     )
-// }
+// Spinner Visual
+export default () =>
+(
+    <div className = 'preloader'>
+        <div className = 'preloader-img'></div>
+    </div>
+)
 
-// export default Preloader
+

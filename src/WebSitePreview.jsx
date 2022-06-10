@@ -1,8 +1,8 @@
+/* eslint-disable import/no-anonymous-default-export */
 import React from 'react'
 
-function WebSitePreview(props)
-{
-return(
+export default props =>
+(
 <div className = "item">
     <div className = "item-image">
         <img 
@@ -21,6 +21,5 @@ return(
         </div>
     </div>
 </div>
-)}
+)
 
-export default WebSitePreview
